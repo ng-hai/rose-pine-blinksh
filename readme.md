@@ -13,10 +13,37 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Open Blink > Settings > Appearance > Add a new theme
+2. Input Theme Name
+3. Paste your copied JS Theme File URL Address
+4. Import > Save
+5. Select your added theme and open new Blink session to apply
+
+## Quick URL Address
+
+For easier to copy JS Theme File URL Address, I list out all of their raw link here.
+
+If you want to support your iPhone/iPad System Appearance, choose Dynamic Themes.
+
+**Static Themes**
+
+- [Rosé Pine](https://raw.githubusercontent.com/ng-hai/rose-pine-blinksh/main/static/default.js)
+- [Rosé Pine Moon](https://raw.githubusercontent.com/ng-hai/rose-pine-blinksh/main/static/moon.js)
+- [Rosé Pine Dawn](https://raw.githubusercontent.com/ng-hai/rose-pine-blinksh/main/static/dawn.js)
+
+**Dynamic Themes**
+
+- [Default/Dawn](https://raw.githubusercontent.com/ng-hai/rose-pine-blinksh/main/dynamic/default-dawn.js)
+- [Moon/Dawn](https://raw.githubusercontent.com/ng-hai/rose-pine-blinksh/main/dynamic/moon-dawn.js)
 
 ## Gallery
 
-![Rosé Pine with App](assets/template.png)
+![Rosé Pine with Blink Shell](assets/default.png)
+![Rosé Pine Moon with Blink Shell](assets/moon.png)
+![Rosé Pine Dawn with Blink Shell](assets/dawn.png)
+
+## Font In Use
+
+In the screenshots, I use [JetBrain Mono Nerd Font](https://raw.githubusercontent.com/blinksh/fonts/master/JetBrains%20Mono%20Nerd%20Font.css) (raw link to copy) to support glyph rendering.
+
+Check also [Blink Shell Fonts Galerry](https://github.com/blinksh/fonts)
