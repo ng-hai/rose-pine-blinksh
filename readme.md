@@ -38,9 +38,11 @@ If you want to support your iPhone/iPad System Appearance, choose Dynamic Themes
 
 ## Gallery
 
-![Rosé Pine with Blink Shell](assets/default.png)
-![Rosé Pine Moon with Blink Shell](assets/moon.png)
-![Rosé Pine Dawn with Blink Shell](assets/dawn.png)
+![Rosé Pine with Blink Shell](assets/default.png)_Rosé Pine_
+
+![Rosé Pine Moon with Blink Shell](assets/moon.png)_Rosé Pine Moon_
+
+![Rosé Pine Dawn with Blink Shell](assets/dawn.png)_Rosé Pine Dawn_
 
 ## Font In Use
 
