@@ -2,8 +2,8 @@ const defaultPalette = {
   base: "#191724",
   surface: "#1f1d2e",
   overlay: "#26233a",
-  inactive: "rgba(85, 81, 105, 0.5)",
-  subtle: "#6e6a86",
+  muted: "#6e6a86",
+  subtle: "#908caa",
   text: "#e0def4",
   love: "#eb6f92",
   gold: "#f6c177",
@@ -11,17 +11,17 @@ const defaultPalette = {
   pine: "#31748f",
   foam: "#9ccfd8",
   iris: "#c4a7e7",
-  highlight: "#2a2837",
-  highlightInactive: "#211f2d",
-  highlightOverlay: "#3a384a",
+  highlightLow: "rgba(110, 106, 134, 0.1)",
+  highlightMed: "rgba(110, 106, 134, 0.2)",
+  highlightHigh: "rgba(110, 106, 134, 0.4)",
 };
 
 const dawnPalette = {
   base: "#faf4ed",
   surface: "#fffaf3",
-  overlay: "#f2e9de",
-  inactive: "rgba(145, 102, 255, 0.5)",
-  subtle: "#6e6a86",
+  overlay: "#f2e9e1",
+  muted: "#9893a5",
+  subtle: "#797593",
   text: "#575279",
   love: "#b4637a",
   gold: "#ea9d34",
@@ -29,14 +29,14 @@ const dawnPalette = {
   pine: "#286983",
   foam: "#56949f",
   iris: "#907aa9",
-  highlight: "#eee9e6",
-  highlightInactive: "#f2ede9",
-  highlightOverlay: "#e4dfde",
+  highlightLow: "rgba(110, 106, 134, 0.05)",
+  highlightMed: "rgba(110, 106, 134, 0.08)",
+  highlightHigh: "rgba(110, 106, 134, 0.15)",
 };
 
 const setTheme = ({ matches = false }) => {
   const selectedPalette = matches ? defaultPalette : dawnPalette;
-  t.prefs_.set("cursor-color", selectedPalette.inactive);
+  t.prefs_.set("cursor-color", selectedPalette.highlightLow);
   t.prefs_.set("foreground-color", selectedPalette.text);
   t.prefs_.set("background-color", selectedPalette.base);
   t.prefs_.set("color-palette-overrides", [
