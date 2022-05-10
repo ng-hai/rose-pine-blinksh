@@ -2,7 +2,7 @@ const palette = {
   base: "#faf4ed",
   surface: "#fffaf3",
   overlay: "#f2e9de",
-  inactive: "#9893a5",
+  inactive: "rgba(145, 102, 255, 0.5)",
   subtle: "#6e6a86",
   text: "#575279",
   love: "#b4637a",
