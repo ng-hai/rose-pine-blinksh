@@ -36,7 +36,7 @@ const dawnPalette = {
 
 const setTheme = ({ matches = false }) => {
   const selectedPalette = matches ? moonPalette : dawnPalette;
-  t.prefs_.set("cursor-color", selectedPalette.highlightLow);
+  t.prefs_.set("cursor-color", selectedPalette.highlightHigh);
   t.prefs_.set("foreground-color", selectedPalette.text);
   t.prefs_.set("background-color", selectedPalette.base);
   t.prefs_.set("color-palette-overrides", [

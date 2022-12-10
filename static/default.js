@@ -16,7 +16,7 @@ const palette = {
   highlightHigh: "rgba(110, 106, 134, 0.4)",
 };
 
-t.prefs_.set("cursor-color", palette.highlightLow);
+t.prefs_.set("cursor-color", palette.highlightHigh);
 t.prefs_.set("foreground-color", palette.text);
 t.prefs_.set("background-color", palette.base);
 t.prefs_.set("color-palette-overrides", [
