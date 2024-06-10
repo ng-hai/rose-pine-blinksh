@@ -48,4 +48,8 @@ If you want to support your iPhone/iPad System Appearance, choose Dynamic Themes
 
 In the screenshots, I use [JetBrain Mono Nerd Font](https://raw.githubusercontent.com/blinksh/fonts/master/JetBrains%20Mono%20Nerd%20Font.css) (raw link to copy) to support glyph rendering.
 
-Check also [Blink Shell Fonts Galerry](https://github.com/blinksh/fonts)
+Also check [Blink Shell Fonts Galerry](https://github.com/blinksh/fonts)
+
+## Similar tool
+
+My custom [Rosé Pine Theme for Hyper Termimal](https://github.com/ng-hai/hyper-rose-pine-next)
